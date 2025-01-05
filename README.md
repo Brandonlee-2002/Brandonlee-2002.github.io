@@ -1,1 +1,5 @@
-# Brandonlee-2002.github.io
+# Data Scientist
+
+Technical Skills: Python, SQL, AWS, Java, C++
+
+# Education
