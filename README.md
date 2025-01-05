@@ -13,3 +13,5 @@ Data Science Intern @ UBX World
 - Leveraged Python to work on said datasets regarding with badminton tournaments
 - Utilized a MST to create a adjacency matrix to show the shared players between each tournament
 
+### Projects
+- UBX World Project
