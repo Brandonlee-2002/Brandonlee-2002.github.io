@@ -9,5 +9,7 @@ Technical Skills: Python, SQL, AWS, Java, C++
 
 ### Work Experience 
 Data Science Intern @ UBX World
-- Adjaceny Matrix for common players in BWF sanctioned tournament
-- 
+- Worked on multi-gigabyte datasets regarding with badminton to help create a new and improved rating system
+- Leveraged Python to work on said datasets regarding with badminton tournaments
+- Utilized a MST to create a adjacency matrix to show the shared players between each tournament
+
