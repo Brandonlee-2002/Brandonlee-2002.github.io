@@ -14,4 +14,6 @@ Data Science Intern @ UBX World
 - Utilized a MST to create a adjacency matrix to show the shared players between each tournament
 
 ### Projects
-- UBX World Project
+- [UBX World Project] (https://github.com/Brandonlee-2002/ubx-data-analysis)
+
+
