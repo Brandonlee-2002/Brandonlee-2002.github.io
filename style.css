@@ -71,3 +71,12 @@ img:hover {
   opacity: 0.8;
   transition: opacity 0.3s;
 }
+
+h2 {
+  font-size: 2rem;
+  color: #005577;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 0.25rem;
+}
