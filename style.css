@@ -38,11 +38,23 @@ footer {
   background-color: #00aaff;
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   position: fixed;
   width: 100%;
   bottom: 0;
 }
+
+.footer-contact {
+  margin-bottom: 0.5rem;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
 
 a {
   color: #006699;
