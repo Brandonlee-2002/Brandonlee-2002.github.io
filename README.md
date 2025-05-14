@@ -34,6 +34,7 @@ A Python-based data analytics project that processes multi-gigabyte sports tourn
 
 ### Badminton Gear Analytics
 Analyzed player-submitted gear preferences to explore trends in racket and string choices, using tension distributions and outlier detection for performance insights.
+[View on Github](https://github.com/Brandonlee-2002/Stringing-Analysis)
 
 ## Contact
 - Email: brandonlee2002@gmail.com
