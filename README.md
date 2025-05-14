@@ -29,7 +29,7 @@ Link to the portfolio: https://brandonlee-2002.github.io/
 
 ## Notable Projects
 ### UBX World
-A Python-based data analytics project that processes multi-gigabyte sports tournament datasets to improve player rating accuracy and visualize participation networks using MST-based graphs.
+A Python-based data analytics project that processes multi-gigabyte sports tournament datasets to improve player rating accuracy and visualize participation networks using MST-based graphs. <br>
 [View on GitHub](https://github.com/Brandonlee-2002/ubx-data-analysis)
 
 ### Badminton Gear Analytics
@@ -37,7 +37,7 @@ Analyzed player-submitted gear preferences to explore trends in racket and strin
 
 ## Contact
 - Email: brandonlee2002@gmail.com
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/brandon-lee-data-scientist/)
 - GitHub: [github.com/Brandonlee-2002](https://github.com/Brandonlee-2002)
 
 ---
