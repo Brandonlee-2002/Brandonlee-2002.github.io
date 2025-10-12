@@ -92,3 +92,22 @@ h2 {
   border-bottom: 2px solid #00aaff;
   padding-bottom: 0.25rem;
 }
+
+html { background-image: inherit; background-color: #00aaff; }
+
+/* Reusable white card like the Projects panel */
+.card--section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin-top: 12px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+/* Tidy the spacing inside Work Experience */
+#work-experience .card--section h3 { margin-top: 12px; margin-bottom: 6px; }
+#work-experience .card--section ul { margin: 8px 0 0 1.25rem; list-style: disc; }
+#work-experience .card--section li { margin: 6px 0; }
+#work-experience .job + .job { margin-top: 22px; } /* if you have multiple roles */
+
