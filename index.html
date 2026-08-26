@@ -3,30 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Brandon Lee | Data Scientist</title>
+  <meta name="description" content="Brandon Lee is a data scientist focused on practical analytics, robotics data, and sports intelligence." />
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Brandon Lee</h1>
-    <p>Data Scientist | Problem Solver | Badminton Enthusiast</p>
-    <p>Data-driven by day, shuttle-driven by passion!</p>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Brandon Lee home">BL<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a>
+      <a class="nav-resume" href="assets/resume.pdf" download>Resume <span aria-hidden="true">↗</span></a>
+    </nav>
   </header>
 
-  <section class="photo-section">
-    <img src="assets/ProfilePicture.jpeg" alt="Profile Photo">
-  </section>
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="hero-copy"><p class="eyebrow">Data scientist · Santa Clara, CA</p><h1>Turning messy data into <em>clear direction.</em></h1><p class="hero-intro">I build practical analytics systems across robotics, sports, and operations. Curious by default, rigorous when it matters.</p><div class="hero-actions"><a class="button button--primary" href="#projects">See selected work <span aria-hidden="true">↓</span></a><a class="text-link" href="mailto:brandonlee2002@gmail.com">Let's talk <span aria-hidden="true">↗</span></a></div></div>
+      <div class="hero-image-wrap"><div class="hero-note">Currently exploring<br><strong>robotics + AI data</strong></div><img src="assets/ProfilePicture.jpeg" alt="Brandon Lee smiling outdoors" class="hero-image"><div class="hero-stamp" aria-hidden="true">DATA<br>WITH<br>PURPOSE</div></div>
+    </section>
+    <section class="proof-bar" aria-label="Highlights"><div><strong>20%</strong><span>operational efficiency improved</span></div><div><strong>30%</strong><span>profit uplift supported</span></div><div><strong>GB+</strong><span>datasets processed</span></div><div><strong>BS</strong><span>Data Science · SJSU</span></div></section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Data-driven problem solver with a robust foundation in data science and computer science, actively seeking opportunities to leverage analytical skills and technical expertise. 
-      My academic journey towards a B.S. in Data Science at San Jose State University has equipped me with hands-on proficiency in Python, C++, and Java, complemented by practical experience in managing large datasets and developing effective algorithms. 
-      Beyond the technical realm, my dedication extends to the badminton court, where strategic thinking, precise execution, and a collaborative spirit are paramount – qualities I bring to every analytical challenge. 
-      I am eager to contribute to innovative projects, translating complex data into actionable insights within a collaborative team environment.</p>
-  </section>
+    <section id="about" class="content-section about-section"><div class="section-label">01 / About</div><div class="about-content"><h2>A builder who likes the messy middle.</h2><div><p>I’m a data scientist with a foundation in computer science and a habit of asking one extra question: what decision will this analysis actually improve?</p><p>That mindset has taken me from multi-gigabyte tournament datasets to data curation for autonomous agents. Outside the laptop, I’m usually on a badminton court, where strategy, timing, and adapting quickly are part of the game.</p><div class="skill-list" aria-label="Skills"><span>Python</span><span>SQL</span><span>scikit-learn</span><span>Java</span><span>C++</span><span>Data visualization</span></div></div></div></section>
 
- <section id="work-experience" class="section">
+    <section id="projects" class="content-section projects-section"><div class="section-heading"><div class="section-label">02 / Selected work</div><h2>Projects with a point of view.</h2></div><div class="project-grid">
+      <article class="project project--feature"><div class="project-image"><img src="assets/Brandon Match Control.jpg" alt="Badminton match control analytics interface"></div><div class="project-body"><p class="project-kicker">Featured · Sports analytics</p><h3>Badminton Stringing Analysis</h3><p>Exploring how racket and string preferences shift across player skill levels, with tension distributions, outlier detection, and an automated GitHub data refresh.</p><div class="tag-list"><span>Python</span><span>Data analysis</span><span>GitHub Actions</span></div><a class="project-link" href="https://github.com/Brandonlee-2002/Stringing-Analysis" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></div></article>
+      <article class="project project--dark"><div class="project-number">02</div><p class="project-kicker">Competitive intelligence</p><h3>League Analysts: Meta Miner</h3><p>An explainable pipeline that turns Riot Match-V5 data into patch-specific champion rankings, meta shifts, and draft insights.</p><div class="tag-list"><span>Python</span><span>K-Means</span><span>Riot API</span></div><a class="project-link" href="https://github.com/Brandonlee-2002/cs171_league_analysts_in_training" target="_blank" rel="noopener noreferrer">Explore the pipeline <span aria-hidden="true">↗</span></a></article>
+      <article class="project project--outline"><div class="project-number">03</div><p class="project-kicker">Network analysis</p><h3>UBX World</h3><p>Multi-gigabyte tournament analysis using an MST-based adjacency matrix to reveal player overlap and competitive structure.</p><div class="tag-list"><span>Python</span><span>MST</span><span>SQL</span></div><a class="project-link" href="https://github.com/Brandonlee-2002/ubx-data-analysis" target="_blank" rel="noopener noreferrer">View the analysis <span aria-hidden="true">↗</span></a></article>
+      <article class="project project--small"><p class="project-kicker">Systems</p><h3>Hospital Management Database</h3><p>Java and SQL system designed to make hospital operations more accessible and efficient for authorized staff.</p><a class="project-link" href="https://github.com/Brandonlee-2002/JDBC_DatabaseProject_SJSU" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a></article>
+    </div></section>
+
+    <section id="experience" class="content-section experience-section"><div class="section-label">03 / Experience</div><div class="experience-list">
+      <article class="experience-item"><div class="experience-date">2025 — 2026</div><div><h3>AI &amp; Robotics Data Collection Engineer Intern</h3><p class="company">RoboForce · Milpitas, CA</p><p>Designed data curation strategies with research scientists to improve deep learning model generalization and bridge simulation with real-world robotic performance.</p></div></article>
+      <article class="experience-item"><div class="experience-date">2024</div><div><h3>Data Scientist Intern</h3><p class="company">UBX World · Toronto, Canada</p><p>Processed multi-gigabyte sports datasets and built an MST-based player overlap model to support a more accurate tournament rating system.</p></div></article>
+      <article class="experience-item"><div class="experience-date">2022 — present</div><div><h3>Front Desk Analyst</h3><p class="company">Synergy Badminton Academy · Fremont, CA</p><p>Used Google Sheets, SQL, and Python to improve inventory operations by 20% and automate Shopify metadata workflows supporting a 30% profit increase.</p></div></article>
+    </div></section>
+    <section class="closing-section" id="contact"><p class="eyebrow">Have an interesting problem?</p><h2>Let’s make the signal louder.</h2><a class="button button--light" href="mailto:brandonlee2002@gmail.com">Get in touch <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer><div><strong>Brandon Lee</strong><span>Data scientist · problem solver · badminton enthusiast</span></div><div class="footer-links"><a href="mailto:brandonlee2002@gmail.com">Email</a><a href="https://www.linkedin.com/in/brandon-lee-data-scientist/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/Brandonlee-2002" target="_blank" rel="noopener noreferrer">GitHub</a></div><p>© 2026 Brandon Lee</p></footer>
+</body>
+</html>
   <h2>Work Experience</h2>
+  <div class="card--section">
+    <div class="item__header">
+      <h3 class="item__role">Sales Engineering Intern</h3>
+      <div class="item__meta">
+        <span class="item__company">Renesas</span> ·
+        <span class="item__location">San Jose, CA</span> ·
+        <span class="item__dates"><time datetime="2026-05">Aug 2024</time> – <time datetime="2026-08">May 2026</time></span>
+      </div>
+    </div>
+    <ul class="item__bullets">
+      <li>Processed and analyzed multi-gigabyte sports tournament datasets using Python, contributing to a more accurate, data-driven player rating system.</li>
+      <li>Developed an MST-based adjacency matrix to visualize and quantify player overlap across tournaments, enabling network analysis of participation patterns.</li>
+    </ul>
+  </div>
   <div class="card card--section">
     <div class="item__header">
       <h3 class="item__role">AI &amp; Robotics Data Collection Engineer Intern</h3>
@@ -39,21 +72,6 @@
     <ul class="item__bullets">
       <li>Collaborated with research scientists to design and implement data curation strategies that enhanced the generalization capabilities of deep learning models for autonomous agents.</li>
       <li>Defined and executed data engineering protocols to bridge the gap between simulation and real-world performance, optimizing the training inputs for advanced robotic control policies.</li>
-    </ul>
-  </div>
-
-  <div class="card--section">
-    <div class="item__header">
-      <h3 class="item__role">Data Scientist Intern</h3>
-      <div class="item__meta">
-        <span class="item__company">UBX World</span> ·
-        <span class="item__location">Toronto, Canada</span> ·
-        <span class="item__dates"><time datetime="2024-08">Aug 2024</time> – <time datetime="2024-10">Oct 2024</time></span>
-      </div>
-    </div>
-    <ul class="item__bullets">
-      <li>Processed and analyzed multi-gigabyte sports tournament datasets using Python, contributing to a more accurate, data-driven player rating system.</li>
-      <li>Developed an MST-based adjacency matrix to visualize and quantify player overlap across tournaments, enabling network analysis of participation patterns.</li>
     </ul>
   </div>
 
