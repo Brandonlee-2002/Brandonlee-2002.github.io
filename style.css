@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+.project-image--code { height: 245px; padding: 1.8rem 2rem; display: flex; align-items: center; background: var(--ink); color: var(--lime); overflow: hidden; }
+.project-image--code pre { margin: 0; font: .72rem/1.7 'DM Mono', monospace; }
+.project-image--code code { color: inherit; }
+@media (max-width: 760px) { .project-image--code { height: 200px; } }
 :root { --ink: #102a43; --muted: #627d98; --paper: #f5f9fd; --lime: #cfe8ff; --coral: #e76f3c; --line: #d7e2ec; --dark: #123b5d; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }

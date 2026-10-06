@@ -1,6 +1,6 @@
-# Brandon Lee's Portfolio Website
+# Brandon Lee's Software Engineering Portfolio
 
-Welcome to my Data Science Portfolio Website!!! This Github Pages site showcases my background, projects, and interests as a data scientist with a passion for problem solving and badminton
+This GitHub Pages site showcases Brandon Lee's software engineering experience, backend and data systems projects, and interests in robotics and badminton.
 
 ## Live Site 
 <a href="https://brandonlee-2002.github.io/" target="_blank">Link to the portfolio</a>
@@ -28,12 +28,17 @@ Welcome to my Data Science Portfolio Website!!! This Github Pages site showcases
 - Github Pages
 
 ## Notable Projects
+### Hospital Management Database
+A Java and SQL system using JDBC to model hospital operations and make patient, appointment, staff, and billing workflows more accessible to authorized users.
+<br>
+<a href="https://github.com/Brandonlee-2002/JDBC_DatabaseProject_SJSU" target="_blank">View on Github!</a>
+
 ### UBX World
-A Python-based data analytics project that processes multi-gigabyte sports tournament datasets to improve player rating accuracy and visualize participation networks using MST-based graphs. <br>
+A Python and SQL workflow that processes multi-gigabyte sports tournament datasets and uses MST-based graphs to reveal player overlap and competitive structure. <br>
 <a href="https://github.com/Brandonlee-2002/ubx-data-analysis" target="_blank">View on Github!</a>
 
 ### Badminton Gear Analytics
-Analyzed player-submitted gear preferences to explore trends in racket and string choices, using tension distributions and outlier detection for performance insights.
+An automated Python analysis workflow that explores player-submitted gear preferences using tension distributions and outlier detection.
 <a href="https://github.com/Brandonlee-2002/Stringing-Analysis" target="_blank">View on Github!</a>
 
 
